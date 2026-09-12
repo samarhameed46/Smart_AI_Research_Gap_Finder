@@ -499,7 +499,7 @@ if st.button("🚀 Analyze Papers", use_container_width=True):
 if st.session_state.analysis_results:
 
     results = st.session_state.analysis_results
-    st.json(results)
+ 
     report = f"""
 SMART AI RESEARCH GAP FINDER REPORT
 
